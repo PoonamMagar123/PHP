@@ -1,0 +1,48 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.bg{
+    position: absolute;
+    z-index: -1;
+    width: 100%;
+    opacity: 0.6;
+}
+.container{
+    max-width: 80%;
+    padding: 34px;
+    margin: auto;
+}
+.container h1, p{
+    text-align: center;
+}
+
+input, textarea{
+    display: block;
+    width: 80%;
+    margin: 11px auto;
+    padding: 7px;
+    font-size: 16px;
+    border: 2px solid black;
+    border-radius: 4px;
+    outline: none;
+}
+form{
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.btn{
+    color: white;
+    background: purple;
+    padding: 15px 10px;
+    font-size: 20px;
+    border-radius: 14px;
+    cursor: pointer;
+}
+.submitMSG{
+    color: green;
+    font-size: 20px;
+}
